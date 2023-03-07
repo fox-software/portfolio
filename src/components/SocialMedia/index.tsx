@@ -1,4 +1,4 @@
-import "../SocialMedia/styles.css";
+import "./styles.css";
 import { ButtonContact } from "../Buttons/ButtonContact";
 
 import { EnvelopeSimple, LinkedinLogo, GithubLogo } from "@phosphor-icons/react";

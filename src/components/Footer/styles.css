@@ -1,11 +1,14 @@
+footer {
+  padding-bottom: 30px;
+}
+
 .footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.footer-container,
-h1 {
+.footer-container h1 {
   font-size: 60px;
   color: rgba(0, 14, 34, 0.8);
 }

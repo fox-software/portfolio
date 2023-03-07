@@ -53,16 +53,6 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong {
-  font-weight: 700;
-}
-
 button {
   border: none;
   cursor: pointer;
@@ -77,4 +67,21 @@ a {
 .page {
   height: 100%;
   padding: 40px 80px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #FFF;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
 }

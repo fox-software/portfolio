@@ -1,4 +1,4 @@
-import "../ButtonConnect/styles.css";
+import "./styles.css";
 
 export function ButtonConnect() {
   return (

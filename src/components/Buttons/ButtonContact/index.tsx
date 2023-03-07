@@ -1,4 +1,4 @@
-import "../ButtonContact/styles.css";
+import "./styles.css";
 import { IconProps } from "@phosphor-icons/react";
 
 interface Props {

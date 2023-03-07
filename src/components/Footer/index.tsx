@@ -1,4 +1,4 @@
-import "../Footer/styles.css";
+import "./styles.css";
 import { ButtonConnect } from "../Buttons/ButtonConnect";
 
 export function Footer() {

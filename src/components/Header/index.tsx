@@ -1,4 +1,4 @@
-import "../Header/styles.css";
+import "./styles.css";
 import logoImg from "../../assets/logo.png";
 import { ButtonConnect } from "../Buttons/ButtonConnect";
 
