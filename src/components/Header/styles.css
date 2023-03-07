@@ -1,0 +1,31 @@
+header {
+  width: -webkit-fill-available;
+  position: fixed;
+  z-index: 5;
+  padding-bottom: 20px;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item {
+  transition: ease-in-out 0.3s;
+  color: rgba(0, 14, 34, 0.5);
+}
+
+.item:hover {
+  transition: ease-in-out 0.3s;
+  color: black;
+}

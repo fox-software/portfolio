@@ -1,0 +1,12 @@
+.btn-connect {
+  background-color: var(--orange);
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: #FFF;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-connect:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+}

@@ -1,0 +1,88 @@
+:root {
+  /* COLORS */
+  --theme: #F1F6FE;
+  --orange: #E73D00;
+
+  /* SIZING */
+  --4px: 0.25rem;
+  --8px: 0.5rem;
+  --10px: 0.625rem;
+  --16px: 1rem;
+  --20px: 1.25rem;
+  --24px: 1.5rem;
+  --32px: 2rem;
+  --48px: 3rem;
+  --64px: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+}
+
+html {
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background-color: var(--theme);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button,
+a {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page {
+  height: 100%;
+  padding: 20px 80px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #CCC;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+}

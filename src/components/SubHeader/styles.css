@@ -1,0 +1,97 @@
+.subheader {
+  padding-top: 170px;
+  padding-bottom: 60px;
+}
+
+.subheader-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.welcome {
+  width: 100%;
+}
+
+.welcome p {
+  font-size: 24px;
+}
+
+.welcome h1 {
+  font-size: 75px;
+}
+
+.company-sector {
+  color: var(--orange);
+}
+
+.abount {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.abount p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.capa {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("../../assets/capa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  gap: 10px;
+  width: 233px;
+  height: 70px;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+
+}
+
+.tag p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.tag h2 {
+  color: #4A4D51;
+}
+
+.tag:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+  background-color: #FFF;
+}
+
+.tag-experience {
+  bottom: 24px;
+  left: 24px;
+}
+
+.tag-customers {
+  bottom: 24px;
+  right: 24px;
+}
+
+.tag-prizes {
+  top: 24px;
+  right: 24px;
+}
+
+.tag-projects {
+  top: 24px;
+  left: 24px;
+}
