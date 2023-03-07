@@ -1,5 +1,7 @@
 :root {
   /* COLORS */
+  --theme: #F1F6FE;
+  --orange: #E73D00;
 
   /* SIZING */
   --4px: 0.25rem;
@@ -32,6 +34,7 @@ html {
 }
 
 body {
+  background-color: var(--theme);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -54,6 +57,16 @@ strong {
 }
 
 button {
+  border: none;
   cursor: pointer;
   transition: filter 0.2s;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page {
+  padding: 40px 80px;
 }

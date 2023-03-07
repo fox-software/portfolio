@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.item {
+  color: rgba(0, 14, 34, 0.8);
+}
+
+.item:hover {
+  color: black;
+}
+
+.btn-connect {
+  background-color: var(--orange);
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: #FFF;
+}
+
+.btn-connect:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+}
