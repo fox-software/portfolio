@@ -1,0 +1,22 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container,
+h1 {
+  font-size: 60px;
+  color: rgba(0, 14, 34, 0.8);
+}
+
+.line {
+  margin: 50px 0;
+  background-color: rgba(0, 14, 34, 0.2);
+  height: 1px;
+  width: 100%;
+}
+
+.copyright {
+  color: rgba(0, 14, 34, 0.53);
+}

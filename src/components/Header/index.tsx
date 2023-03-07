@@ -1,6 +1,6 @@
-import logoImg from "../../assets/logo.png";
-
 import "../Header/styles.css";
+import logoImg from "../../assets/logo.png";
+import { ButtonConnect } from "../Buttons/ButtonConnect";
 
 export function Header() {
   return (
@@ -9,7 +9,7 @@ export function Header() {
       <div className="menu-items">
         <a className="item" href="#abount">Sobre</a>
         <a className="item" href="#project">Projetos</a>
-        <button className="btn-connect">Vamos nos conectar</button>
+        <ButtonConnect />
       </div>
     </header>
   );

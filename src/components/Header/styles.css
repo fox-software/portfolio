@@ -18,15 +18,3 @@
 .item:hover {
   color: black;
 }
-
-.btn-connect {
-  background-color: var(--orange);
-  border-radius: 30px;
-  padding: 10px 40px;
-  color: #FFF;
-}
-
-.btn-connect:hover {
-  transition: ease-in-out 0.3s;
-  transform: scale(1.1);
-}
