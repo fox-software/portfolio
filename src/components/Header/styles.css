@@ -1,4 +1,13 @@
+header {
+  width: -webkit-fill-available;
+  position: fixed;
+  z-index: 5;
+  padding-bottom: 20px;
+}
+
 .header {
+  width: 100%;
+  padding: 20px 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -1,0 +1,61 @@
+.each-slide-effect>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.testimonials-container {
+  padding: 100px 0;
+}
+
+.testimonials-container h2 {
+  text-align: center;
+}
+
+.testimonial {
+  width: 500px;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #E73D00;
+  font-size: 22px;
+}
+
+.user-office {
+  color: rgba(0, 14, 34, 0.4);
+  font-size: 19px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.react-slideshow-container .nav {
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.react-slideshow-container .nav:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  transform: scale(1.2);
+}
+
+.react-slideshow-container .default-nav {
+  padding: 5px;
+}
+
+.react-slideshow-container .nav:first-of-type {
+  left: 20%;
+}
+
+.react-slideshow-container .nav:last-of-type {
+  right: 20%;
+}

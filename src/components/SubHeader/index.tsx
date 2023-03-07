@@ -9,7 +9,7 @@ import { ButtonConnect } from "../Buttons/ButtonConnect";
 
 export function SubHeader() {
   return (
-    <div className="subheader">
+    <div className="subheader" id="abount">
       <div className="subheader-container">
         <div className="welcome">
           <p>Olá, sejam bem-vindos à</p>

@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -66,7 +67,7 @@ a {
 
 .page {
   height: 100%;
-  padding: 40px 80px;
+  padding: 20px 80px;
 }
 
 body::-webkit-scrollbar {
@@ -75,7 +76,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #FFF;
+  background: #CCC;
   /* color of the tracking area */
 }
 
